@@ -79,6 +79,9 @@ class _RandomWordsState extends State<RandomWords> {
     return ListView.builder(
       padding: EdgeInsets.all(16),
       itemBuilder: (context, i) {
+        /**
+         * Ritorna "true" se e solo se questo numero intero è dispari.
+         */
         if (i.isOdd) return Divider();
 
         /**
@@ -109,13 +112,15 @@ class _RandomWordsState extends State<RandomWords> {
         color: _alreadySaved ? Colors.red : null,
       ),
       onTap: () {
-        setState(() {
-          if (_alreadySaved) {
-            _saved.remove(pair);
-          } else {
-            _saved.add(pair);
-          }
-        });
+        setState(
+          () {
+            if (_alreadySaved) {
+              _saved.remove(pair);
+            } else {
+              _saved.add(pair);
+            }
+          },
+        );
       },
     );
   }
