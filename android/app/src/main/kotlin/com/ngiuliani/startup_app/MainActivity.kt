@@ -1,4 +1,4 @@
-package com.ngiuliani.startup.startup_app
+package com.ngiuliani.startup_app
 
 import io.flutter.embedding.android.FlutterActivity
 
