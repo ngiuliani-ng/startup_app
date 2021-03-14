@@ -6,6 +6,3 @@ A new Flutter application. Codelab exercises.
 - Exercise Part.2: https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2#0
 
 ## Project Notes
-
-- Plugin:
-    - english_words: https://pub.dev/packages/english_words
